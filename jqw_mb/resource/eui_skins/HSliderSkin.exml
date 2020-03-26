@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.HSliderSkin" minWidth="20" minHeight="8" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="16" width="410">
+	<e:Image anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" source="autoplay_slide_off@2x_png"/>
+	<e:Image id="track" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" scale9Grid="105,6,30,7" verticalCenter="0" alpha="0" width="344" x="33" source="autoplay_slide_on@2x_png"/>
+	<e:Image id="bar" scale9Grid="105,6,30,7" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" verticalCenter="0" width="330" x="40" source="autoplay_slide_on@2x_png"/>
+	<e:Rect id="masks" width="330" height="16" x="40" verticalCenter="0"/>
+	<e:Image id="ts" scale9Grid="105,6,30,7" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="330" x="40" alpha="0" verticalCenter="0" source="autoplay_slide_on@2x_png"/>
+	<e:Image id="thumb" x="-7" source="autoplay_slide_circle@2x_png" verticalCenter="0"/>
+</e:Skin>

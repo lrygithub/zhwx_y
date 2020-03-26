@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemSkin" width="240" height="162" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" scaleX="1" scaleY="1" width="240" height="162" verticalCenter="0" horizontalCenter="0" source="icon_0M1_png"/>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipBanerSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="ver,hor"  height.ver="120" width.hor="225" height.hor="470" width.ver="848">
+	<e:Group id="KGroup" left.hor="0" right.hor="0" anchorOffsetY="0" verticalCenter.ver="0" anchorOffsetX.ver="0" horizontalCenter.ver="0" verticalCenter.hor="0" width.ver="719" height.ver="98" width.hor="225" height.hor="392" scrollEnabled="true">
+	</e:Group>
+	<ns1:MouseButton id="subBtn" label="" rotation.hor="90" rotation.ver="180" horizontalCenter.hor="0.5" verticalCenter.ver="0" left.ver="0" anchorOffsetX="23" anchorOffsetY="30" bottom.hor="0" scaleX.ver="1.25" scaleY.ver="1.25">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled,rollOver" xmlns:tween="egret.tween.*">
+			<e:Image width="100%" height="100%" source="auto_right_normal_png" source.rollOver="auto_right_hover_png" source.down="auto_right_normal_png" source.disabled="auto_right_disable_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:MouseButton>
+	<ns1:MouseButton id="addBtn" label="" anchorOffsetX="23" anchorOffsetY="30" rotation.ver="-180" rotation.hor="90" horizontalCenter.hor="0" top.hor="0" verticalCenter.ver="0" x.ver="819" scaleX.ver="1.25" scaleY.ver="1.25">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled,rollOver" xmlns:tween="egret.tween.*">
+			<e:Image width="100%" height="100%" source="auto_left_normal_png" source.rollOver="auto_left_hover_png" source.down="auto_left_normal_png" source.disabled="auto_left_disable_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:MouseButton>
+</e:Skin>

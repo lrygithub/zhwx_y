@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AuduTipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="hor,ver"  width.hor="750" height.hor="1334" width.ver="1334" height.ver="750">
+	<e:Rect left="0" right="0" top="0" bottom="0" alpha="0.8"/>
+	<e:Group id="mainGroup" horizontalCenter.hor="0" verticalCenter.hor="0" horizontalCenter.ver="0" verticalCenter.ver="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="BG@2x_png" x="0" y="0" source.hor="BG@2x1_png"/>
+		<e:Label text="您想在游戏中打开声音吗？" y="84" fontFamily="Microsoft JhengHei" size="34" x="96" horizontalCenter.hor="0"/>
+		<e:Label text="不再为我显示" y="166" fontFamily="Microsoft JhengHei" size="26" x="270" x.hor="298"/>
+		<e:Label text="是" y="237" fontFamily="Microsoft JhengHei" size="34" x="125" x.hor="153"/>
+		<e:Label text="否" y="237" fontFamily="Microsoft JhengHei" size="34" x="432" x.hor="484"/>
+		<ns1:CheckButton id="checkButton" x="163" y="148" skinName="CheckSkin" x.hor="191" visible="false"/>
+		<e:Rect id="okRect" width="296" height="75" x="3" y="217" anchorOffsetX="0" anchorOffsetY="0" alpha="0" x.hor="25"/>
+		<e:Rect id="cancleRect" width="296" height="75" y="218" anchorOffsetX="0" anchorOffsetY="0" alpha="0" x="302" x.hor="352"/>
+	</e:Group>
+</e:Skin>

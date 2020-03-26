@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RadioCheckSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,upAndSelected,downAndSelected" >
+	<e:Label id="labelDisplay" text="Label" fontFamily="Microsoft JhengHei" textColor.up="0xacacac" textColor.down="0xacacac" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0" size="26"/>
+</e:Skin>

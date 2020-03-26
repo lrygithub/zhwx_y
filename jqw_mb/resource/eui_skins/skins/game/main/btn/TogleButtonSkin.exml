@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TogleButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,upAndSelected,downAndSelected,rollOver,rollOverAndSelected,disabled"  width="46" height="26">
+	<e:Image source="bg_set15_png" horizontalCenter="0" verticalCenter="0" source.down="bg_set16_png" source.upAndSelected="bg_set17_png" source.downAndSelected="bg_set18_png" source.rollOver="bg_set16_png" source.rollOverAndSelected="bg_set18_png" source.disabled="bg_set19_png"/>
+	<e:Label id="labelDisplay" text="" x="56" size="14" textColor="0x94989e" verticalCenter="0" touchEnabled="false" textColor.disabled="0x666a70"/>
+</e:Skin>

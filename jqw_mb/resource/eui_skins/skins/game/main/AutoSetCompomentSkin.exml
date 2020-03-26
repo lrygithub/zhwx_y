@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AutoSetCompomentSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        states="hor,ver" width.hor="692" height.hor="218"
+        width.ver="363" height.ver="176">
+	<e:Image source="rigth_tanchu_png" left="0" right="0" top="0" bottom="0"
+	          source.ver="options_normal_portrait_autoplay@2x_png" width.ver="363" height.ver="176" source.hor="right_bg@2x_png" left.hor="0" right.hor="0" top.hor="-1" bottom.hor="1"/>
+	<e:ToggleButton id="arrButton" label="" x="454" verticalCenter.ver="0" left.hor="30" scaleX.hor="-1"
+	                visible.ver="false" verticalCenter.hor="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%"
+				          source.up="options_arrow@2x_png" source.down="options_arrow@2x2_png" source.disabled="options_arrow@2x_png" source=""/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group width="150" height="150" x="305" verticalCenter.hor="-16" x.hor="188" verticalCenter.ver="0" horizontalCenter.ver="0">
+		<e:Label id="countLabel" text="99次旋转" size="36" fontFamily.hor="PingFang-SC-Bold" verticalAlign.hor="middle" textAlign.hor="center" fontFamily.ver="PingFang-SC-Bold" width.ver="200" textAlign.ver="center" verticalAlign.ver="middle" verticalAlign="middle" textAlign="center" y.hor="16" y.ver="12" size.ver="20" textColor.hor="0x6c6c6c" size.hor="24" x="-305" y="-261" scaleX="1" scaleY="1" horizontalCenter.hor="0" horizontalCenter.ver="0" textColor.ver="0x6c6c6c" textColor="0x6c6c6c" fontFamily="PingFang-SC-Bold" text.hor="直到特色游戏" bold.hor="true" bold.ver="true" text.ver="直到特色游戏"/>
+	</e:Group>
+	<ns1:MyHslider id="mySlider" x="86.16" skinName="skins.HSliderSkin"
+	               horizontalCenter.hor="-86"  y.ver="80" horizontalCenter.ver="0" verticalCenter.hor="0" scaleX.ver="0.8" scaleY.ver="0.8"/>
+</e:Skin>

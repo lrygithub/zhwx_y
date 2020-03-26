@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>金钱蛙</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/vconsole.min.js"></script>
+    <script>
+        // var vConsole = new VConsole();
+        // console.log('hhhh');
+    </script>
+<style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='gamediv' style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="fixedWidth" data-frame-rate="60"
+data-content-width="1334" data-content-height="750" data-multi-fingered="2" data-show-fps="false" data-show-log="true" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<div id='nvLayer' style="position: absolute;margin: auto;width: 100%;height: 130%; display: none">
+<div style="background: #000000;opacity: 0.7;width: 100%;height: 100%;"></div>
+<img id='nvImg1' src="./resource/assets/nvImg11.png" style="position: absolute;width: 143px;height: 15.5px;"></img>
+<img id='nvImg' src="./resource/assets/nvImg.png" style="position: absolute;width: 57.5px;height: 159.5px;"></img>
+</div>
+<script>
+
+    var dataUrl = {
+        "homePath": 'http://www.baidu.com',
+        "crashPaht": 'http://www.baidu.com',
+        "historyPath": 'http://www.baidu.com',
+    };
+    window['dataUrl'] = dataUrl;
+
+    /**
+    * 弹窗  str  要弹的内容
+    */
+    function popstr(str) {
+        window.postMessage(str);
+    }
+    var CasinoGame = {
+        "Game_id": "T5080801001",
+        "GameCode": ".",
+        "Skin": "normal",
+        "Link_auth": "cdd523674989adc72c92eb0cd2b2fb28",
+        "UrlBase": "ws://172.104.44.114:8086",
+        'PartnerId': 't50',
+        "PlayerId": "user-071",
+        "Token": "9C0B51CDB6ACD3FACC96C2B13125CCAF",
+        "IP": ":",
+        "Language": "chs",
+        "GameCanvas": "game_block",
+        "vtoken_interval": 10,
+        "Denom": "32767",
+        "guset": "0",
+        "crnex": '',
+        "UrlRes": ":",
+        "udf1": ':',
+        "udf2": ':',
+        "udf3": '',
+        "udf4": '',
+        "udf5": '',
+        "NjsHost": "172.104.44.114",
+        "DebugMode_Init": 'LV1',
+        "DebugMode_Play": 'None',
+    };
+    window['CasinoGame'] = CasinoGame;
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({
+                renderMode: "webgl", audioType: 2, calculateCanvasScaleFactor: function (context) {
+                    var backingStore = context.backingStorePixelRatio ||
+                        context.webkitBackingStorePixelRatio ||
+                        context.mozBackingStorePixelRatio ||
+                        context.msBackingStorePixelRatio ||
+                        context.oBackingStorePixelRatio ||
+                        context.backingStorePixelRatio || 1;
+                    return (window.devicePixelRatio || 1) / backingStore;
+                }
+            });
+        });
+    });
+    xhr.send(null);
+</script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "d:\\WORKS\\tangguo\\resource\\default.res.json",
+    "packGroups": {
+        "preload": false,
+        "main": true
+    }
+}

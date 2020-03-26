@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="helpSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="hor,ver"  width.hor="1334" height.hor="750" width.ver="750" height.ver="1254">
+	<e:Image source="help_BJ_s_png" source.hor="help_BJ_h_png" horizontalCenter="0" x="-145" scaleX="1" scaleY="1" verticalCenter.hor="0" anchorOffsetY.ver="0" horizontalCenter.ver="0" verticalCenter.ver="-7.5" height.ver="1160.85"/>
+	<e:Scroller height.hor="663.94" anchorOffsetY.hor="0" height.ver="1152" anchorOffsetY.ver="0" width.hor="1274" horizontalCenter.hor="0" verticalCenter.hor="-3" width.ver="690" horizontalCenter.ver="0" verticalCenter.ver="-12">
+		<e:Group x.hor="-3.03">
+			<e:Image source="help_s_png" y="103" scaleX="1" scaleY="1" horizontalCenter.ver="0" source.hor="help_h_png" y.hor="0"  y.ver="0" horizontalCenter.hor="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="closeHelp" source="help_close_png" right.hor="40" top.hor="45" right.ver="50" top.ver="50"/>
+</e:Skin>

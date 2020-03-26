@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bgGroup" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" y="0" scaleX="1" scaleY="1" x="0">
+		<e:Image id="bgImg" scaleX="1" scaleY="1" verticalCenter="0.5" left="24" source="show_bg_M1_png"/>
+		<e:Label id="windesLabel" text="X7   赢" y="12" size="36" scaleX="1" scaleY="1" horizontalCenter="41.5" anchorOffsetX="0" width="122" verticalAlign="middle" textAlign="center" fontFamily="Microsoft JhengHei" height="40"/>
+		<e:Label id="winRewardLabel" text="￥56" y="50" size="20" scaleX="1" scaleY="1" anchorOffsetX="0" width="122" verticalAlign="middle" textAlign="center" fontFamily="Microsoft JhengHei" x="93" height="30"/>
+		<e:Image id="icons" anchorOffsetX="49" anchorOffsetY="49" verticalCenter="0" left="0" source="show_icon_M1_png"/>
+	</e:Group>
+</e:Skin>

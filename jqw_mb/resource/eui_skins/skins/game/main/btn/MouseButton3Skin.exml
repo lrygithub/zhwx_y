@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MouseButton3Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,rollOver,disabled" >
+	<e:Label id="labelDisplay" text="333" horizontalCenter="0" verticalCenter="0" textColor.disabled="0x94989e" textColor="0x94989e" size="12" width="150" verticalAlign="middle" textAlign="center" fontFamily="Helvetica"/>
+</e:Skin>

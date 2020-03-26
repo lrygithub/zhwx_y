@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DesButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:MosueCheckBox id="btn" label="" skinName="TogleButtonSkin" verticalCenter="0"/>
+	<e:Label id="tLabel" text="跳过介绍视频" x="49" size="10" textColor="0x94989E" touchEnabled="false" verticalAlign="middle" textAlign="left" lineSpacing="2" top="0" bottom="0"/>
+</e:Skin>

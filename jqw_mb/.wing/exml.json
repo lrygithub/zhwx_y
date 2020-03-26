@@ -1,0 +1,61 @@
+{
+  "16947d331dd": {
+    "path": "..\\resource\\eui_skins\\skins\\game\\main\\Button\\tuoguanButton.ts",
+    "class": "tuoguanButton",
+    "parentPath": "resource/eui_skins/ButtonSkin.exml"
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": false
+  },
+  "1705cc77588": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 34
+      },
+      {
+        "type": "h",
+        "pos": 887.879
+      }
+    ],
+    "guideLinesEnabled": true
+  },
+  "170758525fc": {
+    "guideLinesEnabled": true,
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 860
+      },
+      {
+        "type": "v",
+        "pos": -30.303
+      }
+    ]
+  },
+  "1708a480bfc": {
+    "guideLinesEnabled": true,
+    "guideLines": [
+      {
+        "type": "h",
+        "pos": 231
+      },
+      {
+        "type": "h",
+        "pos": 1070.667
+      },
+      {
+        "type": "h",
+        "pos": 973.333
+      },
+      {
+        "type": "h",
+        "pos": 50
+      },
+      {
+        "type": "h",
+        "pos": 695
+      }
+    ]
+  }
+}

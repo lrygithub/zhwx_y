@@ -1,0 +1,11 @@
+{"file":"freegamecounter_font.png","frames":{
+"1":{"x":92,"y":0,"w":28,"h":47,"offX":10,"offY":3,"sourceW":47,"sourceH":51},
+"2":{"x":86,"y":152,"w":40,"h":48,"offX":4,"offY":2,"sourceW":47,"sourceH":51},
+"3":{"x":43,"y":152,"w":41,"h":49,"offX":4,"offY":1,"sourceW":47,"sourceH":51},
+"4":{"x":0,"y":0,"w":45,"h":48,"offX":1,"offY":2,"sourceW":47,"sourceH":51},
+"5":{"x":0,"y":152,"w":41,"h":49,"offX":3,"offY":1,"sourceW":47,"sourceH":51},
+"6":{"x":47,"y":0,"w":43,"h":49,"offX":2,"offY":1,"sourceW":47,"sourceH":51},
+"7":{"x":44,"y":102,"w":42,"h":48,"offX":3,"offY":2,"sourceW":47,"sourceH":51},
+"8":{"x":45,"y":51,"w":42,"h":49,"offX":2,"offY":1,"sourceW":47,"sourceH":51},
+"9":{"x":0,"y":101,"w":42,"h":49,"offX":2,"offY":1,"sourceW":47,"sourceH":51},
+"0":{"x":0,"y":50,"w":43,"h":49,"offX":2,"offY":1,"sourceW":47,"sourceH":51}}}

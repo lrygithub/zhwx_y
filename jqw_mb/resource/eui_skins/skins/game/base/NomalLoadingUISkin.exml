@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NomalLoadingUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" states="hor,ver"  width.hor="1334" height.hor="750" width.ver="750" height.ver="1334">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillColor="0x000000"/>
+	<e:Image right="16" bottom="14" source="loadingbg2_png" scaleX="1.1" right.hor="24" bottom.hor="24" right.ver="24" bottom.ver="24"/>
+	<e:Label id="txt" text="0%" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" size="50" horizontalCenter="0.5" verticalCenter="223" textColor="0xedc4c4" visible="false"/>
+	<e:Group verticalCenter="0" scaleX.ver="0.7" scaleY.ver="0.6" scaleX.hor="0.7" scaleY.hor="0.6" verticalCenter.hor="111.5" verticalCenter.ver="117.5" horizontalCenter.ver="0" horizontalCenter.hor="0">
+		<e:Image source="loading0_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="lgroup" scrollEnabled="true" horizontalCenter="0" verticalCenter="0" width.ver="751" width.hor="751" width="751">
+			<e:Image id="barbg" source="loadingBar_png" verticalCenter.hor="0" scale9Grid="21,3,130,2" x.hor="0" verticalCenter.ver="0"/>
+			<e:Image id="masks" source="loadingBar_png" scale9Grid="21,3,130,2" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Image source="loading3_png" scaleX="1" scaleY="1" left="9" verticalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

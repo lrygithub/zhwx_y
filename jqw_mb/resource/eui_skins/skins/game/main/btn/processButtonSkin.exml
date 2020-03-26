@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="processButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="op" horizontalCenter="0" verticalCenter="0" width="226" height="226">
+		<e:Image source="spin_btn_base@2x_png" horizontalCenter="0" verticalCenter="0" x="-156" y="22" scaleX="1" scaleY="1"/>
+		<e:Image id="im1" horizontalCenter="0" verticalCenter="0" source="xia_png" alpha="0"/>
+		<e:Image id="im2" source="xa_png" horizontalCenter="0" verticalCenter="0" alpha="1"/>
+		<e:Image source="clickBut_png" horizontalCenter="0" verticalCenter="0" x="-139" y="110" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

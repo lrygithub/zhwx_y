@@ -1,0 +1,74 @@
+{
+	"n": [{
+			"id": 0,
+			"icon": "./resource/config/icon/lobby.png",
+			"href": "http://47.99.209.110:8080/game/indexgame/",
+			"name": "测试"
+		},
+		{
+			"id": 0,
+			"icon": "./resource/config/icon/lobby1.png",
+			"href": "http://47.99.209.110:8080/game/indexgame/",
+			"name": "测试"
+		},
+		{
+			"id": 0,
+			"icon": "./resource/config/icon/lobby2.png",
+			"href": "http://47.99.209.110:8080/game/indexgame/",
+			"name": "测试"
+		},
+		{
+			"id": 0,
+			"icon": "./resource/config/icon/lobby3.png",
+			"href": "http://47.99.209.110:8080/game/indexgame/",
+			"name": "测试"
+		}
+
+	],
+	"h": [{
+		"id": 0,
+		"icon": "./resource/config/icon/lobby.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby1.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby2.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby3.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby4.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby5.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby6.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby7.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}, {
+		"id": 0,
+		"icon": "./resource/config/icon/lobby8.png",
+		"href": "http://47.99.209.110:8080/game/indexgame/",
+		"name": "测试"
+	}]
+}

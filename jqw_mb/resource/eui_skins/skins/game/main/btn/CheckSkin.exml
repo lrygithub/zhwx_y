@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckSkin" xmlns:e="http://ns.egret.com/eui" states="up,down,upAndSelected,downAndSelected,disabled,disabledAndSelected" >
+	<e:Image source="switch_on.png@2x_png" includeIn="disabledAndSelected" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image source="switch_on@2x_png" includeIn="disabledAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="btn_smaller_disable@2x_png" includeIn="disabledAndSelected" verticalCenter="0" right="-1" scaleX="1.25" scaleY="1.25"/>
+	<e:Image source="switch_off.png@2x_png" includeIn="disabled" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image source="switch_off@2x_png" includeIn="disabled" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="btn_smaller_disable@2x_png" includeIn="disabled" left="0" verticalCenter="0" scaleX="1.25" scaleY="1.25"/>
+	<e:Image includeIn="downAndSelected" source="switch_off.png@2x_png" verticalCenter="0" horizontalCenter="0" visible="false"/>
+	<e:Image includeIn="downAndSelected" source="btn_smaller_normal@2x_png" verticalCenter="0" left="0" visible="false"/>
+	<e:Image source="switch_off@2x_png" includeIn="downAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image includeIn="upAndSelected" horizontalCenter="0" verticalCenter="0" source="switch_on.png@2x_png" visible="false"/>
+	<e:Image includeIn="upAndSelected" verticalCenter="0" right="0" source="btn_smaller_normal@2x_png" visible="false"/>
+	<e:Image source="switch_on@2x_png" includeIn="upAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="switch_on.png@2x_png" includeIn="down" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image includeIn="down" source="btn_smaller_normal@2x_png" verticalCenter="0" right="0" visible="false"/>
+	<e:Image source="switch_on@2x_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="switch_off.png@2x_png" includeIn="up" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image source="btn_smaller_normal@2x_png" includeIn="up" left="0" verticalCenter="0" visible="false"/>
+	<e:Image source="switch_off@2x_png" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

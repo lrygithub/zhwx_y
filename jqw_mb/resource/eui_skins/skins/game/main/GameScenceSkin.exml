@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameScenceSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        xmlns:tween="egret.tween.*" width="1598" height="660">
+	<w:Declarations></w:Declarations>
+	<e:Image source="yxbg_png" horizontalCenter="-8" verticalCenter="-31.5" />
+	<e:Group left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xc1bfbf" />
+	</e:Group>
+	<ns1:Reel id="R0" x="188" skinName="ReelSkin" verticalCenter="2" />
+	<ns1:Reel id="R1" x="431" skinName="ReelSkin" verticalCenter="2" />
+	<ns1:Reel id="R2" x="675.83" skinName="ReelSkin" verticalCenter="2" />
+	<ns1:Reel id="R3" x="918.52" verticalCenter="2" skinName="ReelSkin" />
+	<ns1:Reel id="R4" x="1161.97" skinName="ReelSkin" verticalCenter="2" />
+	<e:Rect id="freeGame" left="190" right="194" top="0" bottom="12" fillAlpha="0.7" anchorOffsetX="0" anchorOffsetY="0"
+	        visible="false" />
+	<e:Group anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<e:Image id="line_1" source="line_01@2x_png" y="240.85" horizontalCenter="0" visible="false" />
+		<e:Image id="line_2" source="line_02@2x_png" y="405.33" horizontalCenter="0" visible="false" />
+		<e:Image id="line_3" source="line_03@2x_png" y="82.79" horizontalCenter="0" visible="false" />
+		<e:Image id="line_4" source="line_04@2x_png" y="563.33" horizontalCenter="0" visible="false" />
+		<e:Image id="line_5" source="line_05@2x_png" y="248.53" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_6" source="line_06@2x_png" y="71.34" horizontalCenter="0" visible="false" />
+		<e:Image id="line_7" source="line_07@2x_png" y="80.65" horizontalCenter="0" visible="false" />
+		<e:Image id="line_8" source="line_08@2x_png" y="85.34" horizontalCenter="0" visible="false" />
+		<e:Image id="line_9" source="line_09@2x_png" y="81.04" horizontalCenter="0" visible="false" />
+		<e:Image id="line_10" source="line_10@2x_png" y="395.68" horizontalCenter="0" visible="false" />
+		<e:Image id="line_11" source="line_11@2x_png" y="80.37" horizontalCenter="0" visible="false" />
+		<e:Image id="line_12" source="line_12@2x_png" y="81.02" horizontalCenter="0" visible="false" />
+		<e:Image id="line_13" source="line_13@2x_png" y="73.69" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_14" source="line_14@2x_png" y="232.3" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_15" source="line_15@2x_png" y="71.03" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_16" source="line_16@2x_png" y="394.66" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_17" source="line_17@2x_png" y="74.68" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_18" source="line_18@2x_png" y="230.68" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_19" source="line_19@2x_png" y="74.32" horizontalCenter="0" visible="false" />
+		<e:Image id="line_20" source="line_20@2x_png" y="404.29" horizontalCenter="0" visible="false" />
+		<e:Image id="line_21" source="line_21@2x_png" y="239.98" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_22" source="line_22@2x_png" y="81.66" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_23" source="line_23@2x_png" y="73.32" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_24" source="line_24@2x_png" y="405.31" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_25" source="line_25@2x_png" y="238.31" horizontalCenter="0" visible="false" />
+		<e:Image id="line_26" source="line_26@2x_png" y="78.37" horizontalCenter="0" visible="false" />
+		<e:Image id="line_27" source="line_27@2x_png" y="82.33" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_28" source="line_28@2x_png" y="394.33" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_29" source="line_29@2x_png" y="89.65" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_30" source="line_30@2x_png" y="79.01" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_31" source="line_31@2x_png" y="80.99" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_32" source="line_32@2x_png" y="216.37" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_33" source="line_33@2x_png" y="81.66" horizontalCenter="0" visible="false" />
+		<e:Image id="line_34" source="line_34@2x_png" y="405.34" horizontalCenter="0" visible="false" />
+		<e:Image id="line_35" source="line_35@2x_png" y="78.31" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_36" source="line_36@2x_png" y="246.33" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_37" source="line_37@2x_png" y="72.31" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_38" source="line_38@2x_png" y="255" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_39" source="line_39@2x_png" y="76.33" horizontalCenter="0.5" visible="false" />
+		<e:Image id="line_40" source="line_40@2x_png" y="78.97" horizontalCenter="0.5" visible="false" />
+		<e:Group id="gGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect id="p0" width="235" height="640" x="190" verticalCenter="0" visible="false" />
+			<e:Rect id="p1" width="235" height="640" x="428.94" verticalCenter="0" visible="false" />
+			<e:Rect id="p2" width="235" height="640" x="674.8" verticalCenter="0" visible="false" />
+			<e:Rect id="p3" width="235" height="640" x="917.49" verticalCenter="0" visible="false" />
+			<e:Rect id="p4" width="240" height="640" x="1163.97" verticalCenter="0" visible="false" />
+			<e:Rect width="10" height="640" x="425.94" verticalCenter="0" />
+			<e:Rect width="10" height="640" x="662.42" verticalCenter="0" />
+			<e:Rect width="10" height="640" x="909.93" verticalCenter="0" />
+			<e:Rect width="12" height="640" x="1148.6" verticalCenter="0" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="box_k" left="0" right="0" top="0" bottom="0">
+		<e:Image id="Stylebox21" x="674" y="168" source="box_1@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox31" x="917.26" y="168" source="box_1@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox02" x="188.48" y="328" source="box_2@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox22" x="674" y="328" source="box_2@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox42" x="1160" y="328" source="box_2@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox00" x="188" y="8" source="box_3@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox10" x="430.96" y="8" source="box_3@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox11" source="box_18@2x_png" x="430.96" y="168" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox20" x="674" y="8" source="box_3@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox30" x="917.26" y="8" source="box_3@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox40" x="1160" y="8" source="box_3@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox03" x="188" y="488" source="box_4@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox13" x="430.96" y="488" source="box_4@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox33" x="917.26" y="488" source="box_4@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox43" x="1160" y="488" source="box_4@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox01" x="188" y="168" source="box_5@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox12" x="430.96" y="328" source="box_5@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox23" x="674" y="488" source="box_5@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox32" x="917.26" y="328" source="box_5@2x_png" scaleX="0.97" visible="false" />
+		<e:Image id="Stylebox41" x="1160" y="168" source="box_5@2x_png" scaleX="0.97" visible="false" />
+	</e:Group>
+	<ns1:Reel id="RR0" x="188" skinName="ReelSkin" verticalCenter="2" />
+	<ns1:Reel id="RR1" x="431" skinName="ReelSkin" verticalCenter="2" />
+	<ns1:Reel id="RR2" x="675.83" skinName="ReelSkin" verticalCenter="2" />
+	<ns1:Reel id="RR3" x="918.52" skinName="ReelSkin" verticalCenter="0" />
+	<ns1:Reel id="RR4" x="1161.97" skinName="ReelSkin" verticalCenter="2" />
+	<e:Group id="cutAnimation" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image source="common_jqb_bonus_bg@2x_png" horizontalCenter="-8" verticalCenter="0.5" x="194" y="1" scaleX="1" scaleY="1"/>
+		<e:Image source="fgIntroOutro_jqb_bonus_intro_down_text@2x_png" y="545" horizontalCenter="0"/>
+		<e:Image source="fgIntroOutro_common_jqb_dwb_free_games_text_norm@2x_png" y="460" horizontalCenter="0.5"/>
+		<e:Image source="common_jqb_dwb_you_won_text_norm@2x_png" y="52" horizontalCenter="0"/>
+		<e:Image source="common_jqb_dwb_8_text_norm@2x_png" y="270" horizontalCenter="0"/>
+		<e:Image id="yop" source="common_jqb_dwb_8_text_shine@2x_png" y="270" horizontalCenter="0"/>
+		<e:Image id="yop1" source="common_jqb_dwb_free_games_text_shine@2x_png" y="460" horizontalCenter="0"/>
+		<e:Image id="yop2" source="common_jqb_dwb_you_won_text_shine@2x_png" y="52" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

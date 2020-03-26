@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="netcloseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        states="hor,ver" width.hor="750" height.hor="1334" width.ver="1334" height.ver="750">
+	<e:Rect left="0" right="0" top="0" bottom="0" alpha="0.2" alpha.hor="0.5" alpha.ver="0.5" />
+	<e:Group horizontalCenter.hor="0" verticalCenter.hor="0" horizontalCenter.ver="0" verticalCenter.ver="0"
+	         horizontalCenter="0" verticalCenter="0">
+		<e:Image source="hwqbc_png" horizontalCenter="0" verticalCenter="0" />
+		<e:Button id="okRect" label="" y="190" horizontalCenter="0" horizontalCenter.hor="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_nromal@2x_png" source.down="btn_ pressed@2x_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

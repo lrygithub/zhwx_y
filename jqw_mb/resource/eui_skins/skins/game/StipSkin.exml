@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="hor,ver"  width.hor="750" height.hor="1334" width.ver="1334" height.ver="750">
+	<e:Rect left="0" right="0" top="0" bottom="0" alpha="0.8"/>
+	<e:Group horizontalCenter.hor="0" verticalCenter.hor="0" horizontalCenter.ver="0" verticalCenter.ver="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="BG@2x_png" x="0" y="0"/>
+		<e:Label id="desLabel" text="您想在游戏中打开声音吗？" fontFamily="Microsoft JhengHei" size="34" horizontalCenter="0" verticalCenter="-38"/>
+		<e:Label text="是" y="237" fontFamily="Microsoft JhengHei" size="34" x="125"/>
+		<e:Label text="否" y="237" fontFamily="Microsoft JhengHei" size="34" x="432"/>
+		<e:Rect id="okRect" width="296" height="75" x="3" y="217" anchorOffsetX="0" anchorOffsetY="0" alpha="0"/>
+		<e:Rect id="cancleRect" width="296" height="75" y="218" anchorOffsetX="0" anchorOffsetY="0" alpha="0" x="302"/>
+	</e:Group>
+</e:Skin>

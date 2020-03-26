@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MusicBtnSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down,rollOver,upAndSelected,downAndSelected,rollOverAndSelected" >
+	<e:Image source="bg_setm_open_an_png" verticalCenter="0" source.up="bg_setm_close_an__png" source.down="bg_setm_close_an__png" source.rollOver="bg_setm_close_liang_png" source.rollOverAndSelected="bg_setm_open_liang_png" left="0" touchEnabled="false"/>
+	<e:Image id="volueImg" verticalCenter="0"  left="14" />
+</e:Skin>

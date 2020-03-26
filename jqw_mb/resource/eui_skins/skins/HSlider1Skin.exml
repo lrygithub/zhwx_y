@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HSlider1Skin" width="230" height="50" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="bg_set20_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="track" scale9Grid="105,2,30,1" anchorOffsetX="0" anchorOffsetY="0" source="bg_set7_png" y="4" scaleX="1" scaleY="1" alpha="0" width="219" height="44" x="5"/>
+	<e:Image id="tsbar" source="bg_set7_png" y="4" x="5" touchEnabled="false" anchorOffsetX="0" width="219" anchorOffsetY="0" height="44"/>
+	<e:Rect id="masks" ellipseWidth="5" ellipseHeight="5" left="0" right="0" top="0" bottom="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="bg_set9_png"/>
+	<e:Rect id="thumb" width="5" x="2" fillColor="0x000000" top="0" bottom="0" alpha="0"/>
+</e:Skin>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" states="hor,ver"  width.ver="750" height.ver="1254">
+	<w:Config id="1705cc77588"/>
+	<w:Declarations></w:Declarations>
+	<e:Group id="bottomGroup" anchorOffsetY="0" left="0" right="0" left.ver="0" right.ver="0" left.hor="0" right.hor="0" bottom.hor="0" bottom.ver="0" bottom="0">
+		<e:Image id="bottomBg" source="bottom_2_png" source.ver="sbbg_png" x.hor="0" y.hor="0" source.hor="hbbg_png" horizontalCenter.ver="0" verticalCenter.ver="0"/>
+		<e:Group x.hor="45.94" y.hor="21.06" width="84" height="52" left.hor="120" verticalCenter.hor="0" bottom.ver="30" left.ver="70">
+		<e:Label id="t0" text="您的余额" x="2.78" y="0" size="22" text.hor="余额" horizontalCenter.hor="0" text.ver="余额" horizontalCenter.ver="0" textColor.ver="0xf7b018" textColor="0xf7b018" textColor.hor="0xf7b018"/>
+		<e:Label id="balanceLabel" text="115.85" y="23.33" size="30" horizontalCenter="0" text.ver="￥115.85" size.ver="25" horizontalCenter.ver="0" y.ver="27.33"/>
+		</e:Group>
+
+		<e:Group id="rewardGroup" width="80" horizontalCenter.hor="0" horizontalCenter.ver="0" top.ver="12" verticalCenter.hor="2.5" visible.ver="false" visible.hor="false">
+		<e:Label id="t4" text="奖金" y="0" textColor="0xFCCB44" size="26" horizontalCenter="0" fontFamily="Arial" size.ver="27" size.hor="27"/>
+		<e:Label id="rewardLabel" text="1" y="30" size="40" fontFamily="Arial" textAlign="center" verticalAlign="middle" y.hor="24.2" y.ver="31.46" size.ver="44" size.hor="44"  horizontalCenter.ver="-7" horizontalCenter.hor="0.5"/>
+		</e:Group>
+
+
+		<e:Group y.hor="21.06" width="84" height="52" right.hor="100" verticalCenter.hor="0" bottom.ver="30" right.ver="70">
+		<e:Label id="t3" text="总赌注+奖池" y="0" size="22" horizontalCenter="0" textColor.hor="0xf7b018" text.hor="总赌注+奖池" textColor.ver="0xf7b018" text.ver="总赌注+奖池" textColor="0xf7b018"/>
+		<e:Label id="totalBet" text="1" y="23.33" size="30" horizontalCenter="0" size.ver="25" text.ver="￥0.45"/>
+		</e:Group>
+	</e:Group>
+	<ns1:BetSetCompoment id="betSetCompoment" skinName="BetSetCompomentSkin" x="0" x.hor="-584" skinName.hor="BetSetCompomentSkin" scaleX.ver="1" scaleY.ver="1" y.hor="259" x.ver="83" y.ver="1254"/>
+
+
+
+
+	<ns1:AutoSetCompoment id="autoSetCompoment" skinName="AutoSetCompomentSkin" y.ver="1254" x.hor="1334" y.hor="257" x.ver="29"/>
+	<e:Group id="mcGroup" left="0" right="0" top="0" bottom="0" touchThrough="true"/>
+	<e:Group id="jianglilan" width="200" height="150" y="532" horizontalCenter="0" horizontalCenter.hor="0" y.hor="600" horizontalCenter.ver="0" y.ver="1055" scaleX.ver="0.8" scaleY.ver="0.8" anchorOffsetY.ver="0" height.ver="245">
+		<e:Image id="im0" source="dwb_amount_bg_level1@2x1_png" x="639" y="553" horizontalCenter.hor="0" y.hor="23.01" scaleX.hor="1.25" scaleY.hor="1.25" horizontalCenter.ver="0" top.ver="0" scaleX.ver="1.25" scaleY.ver="1.25" visible.ver="false" visible.hor="false"/>
+		<e:Image id="im" source="dwb_amount_bg_level1@2x_png" x="37" y="83" horizontalCenter.hor="0.5" y.hor="23.01" horizontalCenter.ver="0.5" top.ver="0"/>
+		<e:Image id="im1" source="press_spin_label@2x_png" x="9" y.hor="52.57" horizontalCenter.hor="0" horizontalCenter.ver="0" top.ver="30"/>
+		<e:Image id="im2" source="good_luck_label.png@2x_png" x="47" y="43.5" horizontalCenter.hor="0.5" y.ver="20.13" horizontalCenter.ver="0" visible.hor="false" visible.ver="false"/>
+		<e:BitmapLabel id="rewardLabel1" x="69" y="54" horizontalCenter.hor="0" font="dwb_font_fnt" text="￥0.58" y.hor="40" y.ver="14" horizontalCenter.ver="0" visible.hor="false" visible.ver="false" visible="false"/>
+	</e:Group>
+	<e:Group id="controllGroup" x="1085.97" horizontalCenter.ver="0" verticalCenter.hor="-5" bottom.ver="272" scaleX.ver="0.84" scaleY.ver="0.84">
+		<ns1:StartButton id="startButton" x.ver="1085.97" skinName="StartButtonSkin" horizontalCenter.ver="0" y.ver="833.46" scaleX.hor="1" scaleY.hor="1" horizontalCenter.hor="0" verticalCenter.hor="0" horizontalCenter="0" verticalCenter="0" visible.ver="false" visible.hor="false"/>
+		<ns1:AutoStartBtn id="autoButton" x.ver="1088" skinName="AutoStartBtnSkin" horizontalCenter.ver="0" y.ver="834.18" scaleX.hor="1" scaleY.hor="1" horizontalCenter.hor="0" verticalCenter.hor="0" horizontalCenter="0" verticalCenter="0" visible.hor="false" visible.ver="false"/>
+		<ns1:StopButton id="stoptButton" skinName="StopButtonSkin" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="controllGroup1" x="749" y.hor="382" verticalCenter.hor="-5" x.hor="1085.97" horizontalCenter.ver="0" bottom.ver="272" scaleX.ver="0.84" scaleY.ver="0.84" visible.ver="false" visible.hor="false">
+		<e:Group id="one" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<ns1:processButton id="processBtn" scaleX="1" scaleY="1" skinName="processButtonSkin" horizontalCenter="0" verticalCenter="0" x="437" y="-413"/>
+			<ns1:processButton1 id="processBtn1" scaleX="1" scaleY="1" skinName="processButtonSkin1" horizontalCenter="0" verticalCenter="0" visible.ver="false" x="437" y="-413" visible.hor="false"/>
+		</e:Group>
+		<e:Group id="two" width="226" height="226" horizontalCenter="0" verticalCenter="0" visible.hor="false">
+			<ns1:FreeStartButton id="FreestartButton" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" skinName="freeStarButtonSkin"/>
+			<ns1:FreeStopButton id="FreestopButton" scaleX="1" scaleY="1" skinName="freeStopButtonSkin" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+
+	<e:Button id="setBtn" label="" left="30" top="30" left.ver="30" top.ver="30">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_small_normal@2x_png" source.down="btn_small_pressed@2x_png" source.disabled="btn_small_disable@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+	<e:ToggleButton id="betBtn" label="" x="96" y.hor="510" left.ver="30" visible.hor="false" bottom.ver="327">
+		<e:skinName>
+		<e:Skin states="up,down,disabled,upAndSelected,downAndSelected">
+			<e:Image width="100%" height="100%" source.up="btn_small_normal@2x2_png" source.down="btn_small_pressed@2x2_png" source.disabled="btn_small_disable@2x2_png" source.upAndSelected="btn_small_pressed@2x2_png" source.downAndSelected="btn_small_pressed@2x2_png" source="btn_small_normal@2x2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Group id="qukGroup" x="1085" y.hor="512" right.ver="30" bottom.ver="320" visible.hor="false" scaleX.ver="0.84" scaleY.ver="0.84">
+		<e:Label text="快速" x="29" y="85" size="20" textColor="0xDDAC37" fontFamily.ver="Microsoft JhengHei" y.ver="8.39" size.ver="22" textColor.ver="0xffffff" horizontalCenter.ver="0"/>
+		<ns1:CheckButton id="qukcheckBtn" x="0" y="0" skinName="CheckSkin" y.ver="37" scaleX.ver="0.84" scaleY.ver="0.84"/>
+	</e:Group>
+	<e:Rect id="maskRect" left="0" right="0" top="0" bottom="0" alpha="0.5" alpha.hor="0.5" visible.ver="false" strokeColor.hor="0x444444" visible.hor="false" visible="false"/>
+
+
+	<e:Group id="set" left="0" right="0" top="0" bottom="0" touchThrough.ver="true" touchThrough="true" visible.hor="false" visible.ver="false">
+		<e:Rect id="setRect" width="20" height="20" x="236" y="542" left.hor="0" right.hor="0" top.hor="0" bottom.hor="0" alpha.hor="0.5" left.ver="0" right.ver="0" top.ver="0" bottom.ver="0" alpha.ver="0.5"/>
+		<e:Group id="set1" x="300" y="518" left="0" verticalCenter="0" top.ver="0" bottom.ver="0">
+			<e:Image source="more_bg@2x_png" left.ver="0" top.ver="0" bottom.ver="0" y.hor="-518" x.hor="-300" scaleX.hor="1" scaleY.hor="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:CheckBox id="sound" label="声音" y="477" verticalCenter.hor="22" left.hor="30" left="30" y.ver="370" label.hor="声音">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" source="soundOn_nromal@2x_png" source.down="soundOff_nromal@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text="声音" text.up="声音" text.down="声音" text.disabled="声音"/>
+					</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Button id="homeBtn" label="大厅" y="434" verticalCenter.hor="-316" left.hor="28" left="30" left.ver="28" y.ver="10" label.hor="大厅">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" source="home_nromal@2x_png" source.down="home_nromal@2x_png" width.up="56" height.up="56"/>
+					<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter.disabled="0" verticalCenter.down="0" horizontalCenter.up="40" text.up="大厅" verticalCenter.up="0" fontFamily.up="PingFang-SC-Regular" verticalCenter="0" text=""/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<ns1:MouseButton id="checkstand" label="收银台" x="58" y.ver="100" left.hor="28" verticalCenter.hor="-236" left.ver="30" label.hor="收银台">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" source="syt_nromal@2x_png" source.down="syt_select@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text=""/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MouseButton>
+			<ns1:MouseButton id="Info" label="赔付表" x="44" y.ver="190" left.hor="28" verticalCenter.hor="-146" left.ver="30" label.hor="赔付表">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" source="pfb_nromal@2x_png" source.down="pfb_select@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text=""/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MouseButton>
+			<ns1:MouseButton id="history" label="历史记录" x="34" y.ver="280" verticalCenter.hor="-56" left.hor="30" left.ver="30" label.hor="历史记录">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="56" height="56" source="history_nromal@2x_png" source.down="history_select@2x_png" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text=""/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MouseButton>
+			<e:CheckBox id="sound1" label="" y.ver="360.69" verticalCenter.hor="24" right.hor="30" right.ver="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="sound_off@2x_png" source.down="sound_on@2x_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+		</e:Group>
+
+	</e:Group>
+
+
+	<e:Image id="lightBG" source="maskbg_png" left="0" right="0" top="0" bottom="0" visible="false"/>
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,16 @@
+{"file":"freegamewin_font.png","frames":{
+".":{"x":66,"y":30,"w":8,"h":10,"offX":1,"offY":18,"sourceW":11,"sourceH":32},
+"￥":{"x":97,"y":55,"w":19,"h":25,"offX":2,"offY":3,"sourceW":23,"sourceH":32},
+"0":{"x":53,"y":0,"w":21,"h":28,"offX":1,"offY":1,"sourceW":23,"sourceH":32},
+"1":{"x":0,"y":56,"w":11,"h":25,"offX":6,"offY":2,"sourceW":23,"sourceH":32},
+"2":{"x":22,"y":54,"w":19,"h":26,"offX":3,"offY":1,"sourceW":23,"sourceH":32},
+"3":{"x":0,"y":27,"w":20,"h":27,"offX":2,"offY":1,"sourceW":23,"sourceH":32},
+"4":{"x":99,"y":28,"w":21,"h":25,"offX":2,"offY":2,"sourceW":23,"sourceH":32},
+"5":{"x":45,"y":30,"w":19,"h":26,"offX":2,"offY":2,"sourceW":23,"sourceH":32},
+"6":{"x":76,"y":0,"w":21,"h":27,"offX":1,"offY":2,"sourceW":23,"sourceH":32},
+"7":{"x":22,"y":27,"w":21,"h":25,"offX":1,"offY":2,"sourceW":23,"sourceH":32},
+"8":{"x":76,"y":29,"w":19,"h":27,"offX":2,"offY":1,"sourceW":23,"sourceH":32},
+"9":{"x":99,"y":0,"w":21,"h":26,"offX":1,"offY":1,"sourceW":23,"sourceH":32},
+"A":{"x":0,"y":0,"w":25,"h":25,"offX":2,"offY":2,"sourceW":29,"sourceH":32},
+"N":{"x":27,"y":0,"w":24,"h":25,"offX":2,"offY":2,"sourceW":29,"sourceH":32},
+",":{"x":43,"y":58,"w":11,"h":13,"offX":0,"offY":19,"sourceW":11,"sourceH":32}}}

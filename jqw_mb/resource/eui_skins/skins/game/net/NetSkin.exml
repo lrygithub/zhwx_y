@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NetSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="hor,ver"  width.hor="750" height.hor="1334" width.ver="1334" height.ver="750">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5" alpha="0.8"/>
+	<e:Image id="netingIcon" source="neterror_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

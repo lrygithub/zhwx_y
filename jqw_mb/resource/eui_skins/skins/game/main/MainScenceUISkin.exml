@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainScenceUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        states="hor,ver" width.ver="750" height.ver="1254" width.hor="1334" height.hor="750">
+	<w:Config id="1708a480bfc" />
+	<e:Image id="bg" scaleX="1" scaleY="1" left.hor="0" right.hor="0" top.hor="0" bottom.hor="0" left.ver="0" right.ver="0"
+	         bottom.ver="0" top.ver="0" source="loading_BG@2x_png" left="0" right="0" top="0" bottom="0"
+	         source.ver="loading_BG@2x_png" />
+	<e:Group id="mainGroup" scrollEnabled="false" left="0" right="0" top="0" bottom="0" left.hor="0" right.hor="0"
+	         top.hor="0" bottom.hor="0" left.ver="0" right.ver="0" top.ver="0" bottom.ver="0" visible.ver="false" visible.hor="false">
+		<e:Image id="xuanzhuan" source="shining_fg-game@2x_png" horizontalCenter="6" verticalCenter="-232" scaleX="0.45" scaleY="0.45"
+		         scaleX.hor="1" scaleY.hor="1"  horizontalCenter.ver="6" verticalCenter.ver="-240"/>
+		<e:Group y="0" verticalCenter.ver="-123.5" scaleX.hor="0.7" scaleY.hor="0.7" horizontalCenter.hor="-0.5"
+		         verticalCenter.hor="-94.5" scaleX.ver="0.55" scaleY.ver="0.55" horizontalCenter.ver="6.5">
+			<ns1:GameScence id="gameScence" skinName="GameScenceSkin" x.hor="362" y.hor="142" horizontalCenter.ver="-1.5"
+			                verticalCenter.ver="68.5" y="140" horizontalCenter="0" horizontalCenter.hor="0.5" />
+			<ns1:FreeGameScence id="freegameScence" y="140" skinName="FreeGameScenceSkin" horizontalCenter="0" y.hor="142" horizontalCenter.hor="0.5" verticalCenter.ver="68.5" horizontalCenter.ver="-1.5" visible.ver="false" visible.hor="false"/>
+			<e:Group id="mcGroup"  left="0" right="0" top="0" bottom="0" touchThrough="true"/>
+		</e:Group>
+		<ns1:logshow id="logsohwT" x="842" skinName.hor="logshowskin" horizontalCenter.hor="0" scaleX.hor="0.6"
+		             scaleY.hor="0.6" scaleX.ver="0.55" scaleY.ver="0.55" skinName="logshowskin" horizontalCenter.ver="0.5"
+		             verticalCenter.ver="-297.5" verticalCenter.hor="-306" />
+		<e:Group id="informationGroup" left="0" right="0" top="0" bottom="0" scaleX.hor="0.7" scaleY.hor="0.7" left.hor="0"
+		         right.hor="0" top.hor="0" bottom.hor="0" anchorOffsetY.hor="0" scaleX.ver="0.55" scaleY.ver="0.55"
+		         visible.hor="false" visible.ver="false">
+			<e:Image source="xxbg_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"
+			         horizontalCenter.hor="-7.85714285714289" verticalCenter.hor="-95.71428571428578"
+			         horizontalCenter.ver="2.181818181818244" verticalCenter.ver="-189" />
+			<e:Group width="200" height="200" x="221" width.hor="1157" height.hor="613"
+			         y.hor="158" width.ver="1157" height.ver="613" horizontalCenter.ver="-0.31818181818175617" horizontalCenter.hor="-4.35714285714289" verticalCenter.ver="-160.5" scrollEnabled.hor="true" scrollEnabled="true">
+				<e:Group id="p1" width="200" height="200" x="-6.000000000000057" y="1264" scaleX="1" scaleY="1" width.hor="1157" height.hor="613" horizontalCenter.hor="0" verticalCenter.hor="0" width.ver="1157" height.ver="613" horizontalCenter.ver="0" verticalCenter.ver="0">
+					<e:Image id="one0" y.hor="0" verticalCenter.ver="0" horizontalCenter.ver="0" x="6.000000000000057" y="-1264" scaleX="1.4" scaleY="1.4" source.hor="info_png" scaleX.hor="1.4" scaleY.hor="1.4" horizontalCenter.hor="0" source.ver="info_png" scaleX.ver="1.4" scaleY.ver="1.4" source="info_png"/>
+				</e:Group>
+				<e:Group id="p2" width="200" height="200" x="558" y="1194" scaleX="1" scaleY="1" width.hor="1157" height.hor="613" horizontalCenter.hor="1157" verticalCenter.hor="0" width.ver="1157" height.ver="613" horizontalCenter.ver="1157" verticalCenter.ver="0">
+					<e:Image id="one1" source="page_02@2x_png" y.hor="7.5099999999999625" scaleX.hor="1" scaleY.hor="1" verticalCenter.ver="0" horizontalCenter.ver="0" x="-558.0000000000001" y="-1194" scaleX="1" scaleY="1" horizontalCenter.hor="-8.9"/>
+				</e:Group>
+				<e:Group id="p3" width="200" height="200" x="791.0000000000002" y="1015" scaleX="1" scaleY="1" width.hor="1157" height.hor="613" verticalCenter.hor="0" horizontalCenter.hor="2314" width.ver="1157" height.ver="613" horizontalCenter.ver="2314" verticalCenter.ver="0">
+					<e:Image id="one2" source="page_3@2x_png" y.hor="6.759999999999991" scaleX.hor="1" scaleY.hor="1" verticalCenter.ver="0" horizontalCenter.hor="0" horizontalCenter.ver="0" x="-791.0000000000002" y="-1015" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:Group id="p4" width="200" height="200" x="1170" y="942" scaleX="1" scaleY="1" width.hor="1157" height.hor="613" horizontalCenter.hor="3471" verticalCenter.hor="0" width.ver="1157" height.ver="613" horizontalCenter.ver="3471" verticalCenter.ver="0">
+					<e:Image id="one3" source="pange_4@2x_png" y.hor="6.759999999999991" scaleX.hor="1" scaleY.hor="1" verticalCenter.ver="0" horizontalCenter.hor="0" horizontalCenter.ver="0" x="-1170" y="-942" scaleX="1" scaleY="1"/>
+					<e:Image id="one3_1" source="Press-HereUK@2x_png" x="-225.79999999999995" y="-234.71000000000004" y.ver="561.48" x.ver="571.42" x.hor="570.2" y.hor="549.29" scaleX.hor="1" scaleY.hor="1" scaleX="1" scaleY="1"/>
+				</e:Group>
+			</e:Group>
+			<e:Image id="xuan0" x="565" y.hor="753.22" x.hor="888.02" source.hor="on@2x_png"  x.ver="621.36" source.ver="on@2x_png" source="on@2x_png" y.ver="1275"/>
+			<e:Image id="xuan1" source="off@2x_png" x="616" y.hor="753.22" x.hor="918.02"  x.ver="650.55" source.ver="off@2x_png" y.ver="1275" source.hor="off@2x_png"/>
+			<e:Image id="xuan2" source="off@2x_png" x="681" y.hor="753.22" x.hor="948.02"  x.ver="682.82" source.ver="off@2x_png" y.ver="1275.42" source.hor="off@2x_png"/>
+			<e:Image id="xuan3" source="off@2x_png" x="772" y.hor="753.22" x.hor="978.02"  x.ver="713.82" y.ver="1275" source.ver="off@2x_png"/>
+			<e:Button id="closeInfo" label="" x.hor="867" scaleX.hor="1.43" scaleY.hor="1.43"
+			          horizontalCenter.hor="-12.35714285714289" scaleX.ver="1.82" scaleY.ver="1.82"
+			          horizontalCenter.ver="0" verticalCenter.ver="722.5" verticalCenter.hor="435.7857142857142">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="close_n@2x2_png" source.disabled="close_d@2x2_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="zhuo" label="" scaleX.hor="1.43" scaleY.hor="1.43" verticalCenter.hor="-0.21428571428577925"
+			          verticalCenter.ver="722.5" scaleX.ver="1.82" scaleY.ver="1.82" left.ver="0" left.hor="57">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="jiantou_n@2x2_png" source.disabled="jiantou_d@2x2_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="you" label="" y="700" skewY="-180" scaleX.hor="1.43" scaleY.hor="1.43"
+			          verticalCenter.hor="-0.21428571428577925" verticalCenter.ver="722.5"
+			          scaleX.ver="1.82" scaleY.ver="1.82" right.ver="0" right.hor="56.71428571428578">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="jiantou_n@2x2_png" source.disabled="jiantou_d@2x2_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="caijin" y="0" anchorOffsetX="0" width="1225" horizontalCenter="0" horizontalCenter.ver="-7.5">
+			<e:Image source="purple_icon@2x_png" x="-45" y="479.00000000000006" scaleX="1" scaleY="1" y.hor="48.4" y.ver="232"
+			         x.ver="644" source.hor="mini_panel@2x_png" x.hor="878.67" scaleX.hor="0.8" scaleY.hor="0.8" />
+			<e:Image source="green_icon@2x_png" x="213" y="864" scaleX="1" scaleY="1" y.hor="48.28" y.ver="231.35" x.ver="390"
+			         source.hor="minor_panel@2x_png" x.hor="177.55" scaleX.hor="0.8" scaleY.hor="0.8" />
+			<e:Image source="blue_icon@2x_png" x="340" y="894.0000000000001" scaleX="1" scaleY="1" y.hor="19.12" y.ver="120.56"
+			         x.ver="638.08" source.hor="major_panel@2x_png" x.hor="865.65" scaleX.hor="0.8" scaleY.hor="0.8" />
+			<e:Image source="red_icon@2x_png" x="592" y.ver="105.33" scaleX="1" scaleY="1" top.hor="18" x.hor="176.06"
+			         x.ver="285.09" source.hor="grand_panel@2x_png" scaleX.hor="0.8" scaleY.hor="0.8" />
+			<e:Image source="txt_grand@2x_png" includeIn="hor" x="352.07" y="35.2" scaleX="0.8" scaleY="0.8" />
+			<e:Image source="txt_major@2x_png" includeIn="hor" x="779.65" y="36.01" scaleX="0.8" scaleY="0.8" />
+			<e:Image source="txt_mini@2x_png" includeIn="hor" x="793.33" y="63" scaleX="0.8" scaleY="0.8" />
+			<e:Image source="txt_minor@2x_png" includeIn="hor" x="334.95" y="62.8" scaleX="0.8" scaleY="0.8" />
+			<e:BitmapLabel id="F1" width="20" height="20" x="212" y="624" y.hor="35" x.hor="230.5" text.hor="￥4,500.25"
+			               font.hor="jp_counter-export_fnt" scaleX.hor="0.6" scaleY.hor="0.6" width.hor="200" y.ver="186.9"
+			               x.ver="409.69" text.ver="￥208.0000" width.ver="200" height.ver="20" font.ver="red_fnt" />
+			<e:BitmapLabel id="F2" width="20" height="20" x="348" y="654" font.hor="jp_counter-export_fnt" text.hor="￥789.35"
+			               y.hor="63.33" scaleX.hor="0.6" scaleY.hor="0.6" x.hor="227.61" width.hor="200" y.ver="276.66"
+			               x.ver="473.35" text.ver="￥789.35" font.ver="green_fnt" width.ver="200" />
+			<e:BitmapLabel id="F3" width="20" height="20" x="502" y="712" font.hor="jp_counter-export_fnt" y.hor="35"
+			               x.hor="881.67" text.hor="￥1,285.15" width.hor="200" scaleX.hor="0.6" scaleY.hor="0.6" y.ver="189.4"
+			               x.ver="750.46" text.ver="￥1,285.15" font.ver="blue_fnt" width.ver="200" />
+			<e:BitmapLabel id="F4" width="20" height="20" x="660" y="706" font.hor="jp_counter-export_fnt" x.hor="897.5"
+			               y.hor="63" scaleX.hor="0.6" scaleY.hor="0.6" width.hor="200" text.hor="￥285.15" y.ver="278.73"
+			               x.ver="723.64" font.ver="zise_fnt" text.ver="￥285.15" width.ver="200" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="set" left="0" right="0" top="0" bottom="0" touchThrough.hor="true" visible.hor="false" visible="false">
+		<e:Rect id="setRect" width="20" height="20" x="236" y="542" left.hor="0" right.hor="0" top.hor="0" bottom.hor="0"
+		        alpha.hor="0.5" left.ver="0" right.ver="0" top.ver="0" bottom.ver="0" alpha.ver="0.5" />
+		<e:Group id="set1" x="300" y="518" left="0" verticalCenter="0" top.ver="0" bottom.ver="0" visible.ver="false">
+			<e:Image source="more_bg@2x_png" left.ver="0" top.ver="0" bottom.ver="0" y.hor="-518" x.hor="-300" scaleX.hor="1"
+			         scaleY.hor="1" horizontalCenter="0" verticalCenter="0" />
+			<e:CheckBox id="sound" label="声音" y="477" verticalCenter.hor="22" left.hor="30" left="30" y.ver="370" label.hor="声音">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="56" height="56" source="soundOn_nromal@2x_png" source.down="soundOff_nromal@2x_png" />
+						<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text="声音" text.up="声音" text.down="声音"
+						         text.disabled="声音" />
+					</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Button label="大厅" y="434" verticalCenter.hor="-316" left.hor="28" left="30" left.ver="28" y.ver="10"
+			          label.hor="大厅">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="56" height="56" source="home_nromal@2x_png" source.down="home_nromal@2x_png" width.up="56"
+						         height.up="56" />
+						<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter.disabled="0" verticalCenter.down="0"
+						         horizontalCenter.up="40" text.up="大厅" verticalCenter.up="0" fontFamily.up="PingFang-SC-Regular"
+						         verticalCenter="0" text="" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<ns1:MouseButton label="收银台" x="58" y.ver="100" left.hor="28" verticalCenter.hor="-236" left.ver="30" label.hor="收银台">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="56" height="56" source="syt_nromal@2x_png" source.down="syt_select@2x_png" />
+						<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text="" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MouseButton>
+			<ns1:MouseButton label="赔付表" x="44" y.ver="190" left.hor="28" verticalCenter.hor="-146" left.ver="30" label.hor="赔付表">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="56" height="56" source="pfb_nromal@2x_png" source.down="pfb_select@2x_png" />
+						<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text="" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MouseButton>
+			<ns1:MouseButton label="历史记录" x="34" y.ver="280" verticalCenter.hor="-56" left.hor="30" left.ver="30"
+			                 label.hor="历史记录">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="56" height="56" source="history_nromal@2x_png" source.down="history_select@2x_png"
+						         verticalCenter="0" />
+						<e:Label id="labelDisplay" horizontalCenter="40" verticalCenter="0" text="" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:MouseButton>
+			<e:CheckBox label="" y.ver="360.69" verticalCenter.hor="24" right.hor="30" right.ver="30">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="sound_off@2x_png" source.down="sound_on@2x_png" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+		</e:Group>
+	</e:Group>
+	<ns1:SetUI id="setUI" skinName="SetUISkin" x.hor="-0.5" y.hor="1" left="0" right="0" top="0" bottom="0" left.ver="0"
+	           right.ver="0" top.ver="0" bottom.ver="0"  left.hor="-1" right.hor="1" top.hor="0" bottom.hor="0" visible.ver="false" visible.hor="false"/>
+	<e:Group id="TheLogin" y.hor="527.7" left="0" right="0" top="0" bottom="0">
+		<e:Image source="csbgpng_png" x.hor="309" y="202" scaleX.hor="0.7" scaleY.hor="0.7" horizontalCenter.hor="0"
+		         verticalCenter.hor="0" horizontalCenter.ver="0" verticalCenter.ver="0" scaleX.ver="0.54" scaleY.ver="0.54" />
+		<e:Image source="progress@2x_png" y.hor="498" scaleX="0.7" scaleY="0.7" horizontalCenter="-6" scaleX.ver="0.54"
+		         scaleY.ver="0.54" horizontalCenter.ver="-5.5" horizontalCenter.hor="-5.5" verticalCenter.hor="168"
+		         verticalCenter.ver="131.5" />
+		<e:Image id="mk_bg" source="mask@2x_png" y.hor="498" scaleX="0.7" scaleY="0.7" horizontalCenter.hor="-6"
+		         scaleX.ver="0.54" scaleY.ver="0.54" horizontalCenter.ver="-5.5" verticalCenter.hor="168"
+		         verticalCenter.ver="131.5" />
+		<e:Rect id="mk" width="257" height="68" x="570.65" y.hor="519.35" scaleX="0.7" scaleY="0.7" anchorOffsetX="0"
+		        anchorOffsetY="0" width.hor="257" scaleX.ver="0.54" scaleY.ver="0.54" x.ver="300.65" verticalCenter.hor="168"
+		        verticalCenter.ver="131.5" />
+		<e:Label id="percentage" text="71%" x="624" horizontalCenter.hor="0.5" scaleX.hor="0.7" scaleY.hor="0.7"
+		         scaleX.ver="0.54" scaleY.ver="0.54" horizontalCenter.ver="0.5" verticalCenter.hor="168"
+		         verticalCenter.ver="131.5" />
+		<ns1:MouseButton id="pg_btn" label="" x="709" scaleX.hor="0.7" scaleY.hor="0.7" horizontalCenter.hor="-6"
+		                 scaleX.ver="0.54" scaleY.ver="0.54" horizontalCenter.ver="-5.5" verticalCenter.hor="168"
+		                 verticalCenter.ver="131.5" visible.hor="false" visible.ver="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled,rollOver">
+					<e:Image width="100%" height="100%" source="btn_play_game_normal@2x_png" source.down="btn_play_game_pressed@2x_png"
+					         source.rollOver="btn_play_game_hover@2x_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:MouseButton>
+	</e:Group>
+</e:Skin>

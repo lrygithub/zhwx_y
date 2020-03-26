@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AutoStartBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+	<e:Image source="spin_btn_base@2x_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="kstxt" y="20" horizontalCenter="1" source="kszdyx_png"/>
+	<e:Image id="bg" source="glow_yellow@2x2_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="zjbg" source="autoplay_sanjiao@2x_png" horizontalCenter="5" verticalCenter="0"/>
+</e:Skin>
